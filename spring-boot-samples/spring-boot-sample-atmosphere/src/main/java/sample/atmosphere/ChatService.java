@@ -66,6 +66,8 @@ public class ChatService {
 				throw new IllegalStateException(ex);
 			}
 		}
+		
+		
 
 		@Override
 		public Message decode(String s) {
